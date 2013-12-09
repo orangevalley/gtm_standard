@@ -1,6 +1,6 @@
 Google Tag Manager Container code
 ============
-Implementation guide
+Implementation guide for proper Google Tag Manager container code. In advance of implementing the Google Tag Manager code you should check if you have received the necessary container ID from you Orangevalley point of contact.
 
 ## Background
 Google Tag Manager is a free tool that eliminates tedious code-editing tasks for your website. The easy-to-use web interface lets your marketing colleagues add and update their own website tags—including javascript code snippets for conversion tracking, site analytics, remarketing and more. They can do it all without bothering you, leaving you time to focus on other (more) important work.
@@ -28,7 +28,7 @@ keep sites running smoothly and quickly. Tags are managed with an easy-to-use we
 ## Implementation
 he Google Tag Manager container snippet is a small piece of JavaScript and non-JavaScript code that you paste into your pages. It enables Tag Manager to fire tags by inserting gtm.js into the page (or through the use of an iframe when JavaScript isn't available).
 
-To implement Google Tag Manager, copy the code snippet provided in the Tag Manager interface or from below, replacing both instances of **GTM-XXXX** with your container ID (supplied separately by OrangeValley). Paste this snippet into your website template page so that it appears immediately after the opening < body > tag.
+To implement Google Tag Manager, copy the code snippet provided in the Tag Manager interface or from below, **replacing both instances of GTM-XXXX** with your container ID (supplied separately by OrangeValley). Paste this snippet into your website template page so that it appears immediately after the opening < body > tag.
 
 ```javascript
 <!-- Google Tag Manager -->
@@ -41,7 +41,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-XXXX');</script>
 <!-- End Google Tag Manager -->
 ```
+You will find the first instance which has to be replaced by the proper container ID at the beginning of the Google Tag Manager code:
+
+```javascript
+src="//www.googletagmanager.com/ns.html?id=GTM-XXXX"
+```
+
+And the second instance which has to be replaced by the proper container ID at the end of the Google Tag Manager code:
+
+```javascript
+window,document,'script','dataLayer','GTM-XXXX')
+```
+
 _**Note:** The Google Tag Manager snippet must be placed directly in the page that you intend on tracking. Placing it in a hidden iframe or deploying it within another tag management system will prevent certain tags from accurately tracking the parent page._
+
+## Verify you implementation
+You can verify the (basic) implementation by using a specific Google Chrome plugin. This plugin, called Tag Assistant, will report if the implementation of the Google Tag Manager code is correct or any warnings/errors could interfere with the correct function of the Google Tag Manager.
+
+[Tag Assistant - Google Chrome](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en)
+
+### Troubleshooting
+If you run in to any problems; for instance the Tag Assistant is reporting issues or errors. Please:
+1. Refer to the [Google Tag Manager Quick Start Guide](https://developers.google.com/tag-manager/troubleshooting)
+2. [Google Tag Manager Troubleshooting information](https://developers.google.com/tag-manager/troubleshooting)
+3. Get in touch with your OrangeValley Point of contact or send an message to support _at_ orangevalley _dot_ nl.
 
 ## Additional information
 [Google Tag Manager support website](https://developers.google.com/tag-manager/quickstart)
