@@ -1,6 +1,6 @@
 Google Tag Manager Container code
 ============
-Implementation guide for proper Google Tag Manager container code. In advance of implementing the Google Tag Manager code you should check if you have received the necessary container ID from you Orangevalley point of contact.
+Implementation guide for proper Google Tag Manager container code. In advance of implementing the Google Tag Manager code you should check if you have received the necessary container ID from you Orangevalley point of contact. When referred to Google Tag Manager container you should use the script within [GTM_standardScript.js](https://github.com/orangevalley/GTM_standard/blob/master/GTM_standardScript.js)
 
 ## Background
 Google Tag Manager is a free tool that eliminates tedious code-editing tasks for your website. The easy-to-use web interface lets your marketing colleagues add and update their own website tags—including javascript code snippets for conversion tracking, site analytics, remarketing and more. They can do it all without bothering you, leaving you time to focus on other (more) important work.
@@ -28,7 +28,7 @@ keep sites running smoothly and quickly. Tags are managed with an easy-to-use we
 ## Implementation
 he Google Tag Manager container snippet is a small piece of JavaScript and non-JavaScript code that you paste into your pages. It enables Tag Manager to fire tags by inserting gtm.js into the page (or through the use of an iframe when JavaScript isn't available).
 
-To implement Google Tag Manager, copy the code snippet provided in the Tag Manager interface or from below, **replacing both instances of GTM-XXXX** with your container ID (supplied separately by OrangeValley). Paste this snippet into your website template page so that it appears immediately after the opening < body > tag.
+To implement Google Tag Manager, copy the code snippet provided within [GTM_standardScript.js](https://github.com/orangevalley/GTM_standard/blob/master/GTM_standardScript.js), **replacing both instances of GTM-XXXX** with your container ID (supplied separately by OrangeValley). Paste this snippet into your website template page so that it appears immediately after the opening < body > tag.
 
 ```javascript
 <!-- Google Tag Manager -->
