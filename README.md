@@ -63,11 +63,9 @@ You can verify the (basic) implementation by using a specific Google Chrome plug
 ### Troubleshooting
 If you run in to any problems; for instance the Tag Assistant is reporting issues or errors. Please:
 
-1. Refer to the [Google Tag Manager Quick Start Guide](https://developers.google.com/tag-manager/troubleshooting)
-
-2. [Google Tag Manager Troubleshooting information](https://developers.google.com/tag-manager/troubleshooting)
-
-3. Get in touch with your OrangeValley Point of contact or send an message to support _at_ orangevalley _dot_ nl.
+- Refer to the [Google Tag Manager Quick Start Guide](https://developers.google.com/tag-manager/troubleshooting)
+- [Google Tag Manager Troubleshooting information](https://developers.google.com/tag-manager/troubleshooting)
+- Get in touch with your OrangeValley Point of contact or send an message to support _at_ orangevalley _dot_ nl.
 
 ## Additional information
 [Google Tag Manager support website](https://developers.google.com/tag-manager/quickstart)
