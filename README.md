@@ -1,6 +1,6 @@
 Google Tag Manager Container code
 ============
-Implementation guide for proper Google Tag Manager container code. In advance of implementing the Google Tag Manager code you should check if you have received the necessary container ID from you Orangevalley point of contact. When referred to Google Tag Manager container you should use the script within [GTM_standardScript.js](https://github.com/orangevalley/GTM_standard/blob/master/GTM_standardScript.js)
+Implementation guide for proper Google Tag Manager container code. In advance of implementing the Google Tag Manager code you should check if you have received the necessary container ID from you Orangevalley point of contact. When referred to Google Tag Manager container you should use the script within [GTM_standardScript.js](https://github.com/orangevalley/GTM_standard/blob/master/GTM_standardScript.js).
 
 ## Background
 Google Tag Manager is a free tool that eliminates tedious code-editing tasks for your website. The easy-to-use web interface lets your marketing colleagues add and update their own website tags—including javascript code snippets for conversion tracking, site analytics, remarketing and more. They can do it all without bothering you, leaving you time to focus on other (more) important work.
