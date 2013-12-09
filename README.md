@@ -70,3 +70,6 @@ If you run in to any problems; for instance the Tag Assistant is reporting issue
 ## Additional information
 [Google Tag Manager support website](https://developers.google.com/tag-manager/quickstart)
 
+# Version History
+- 1 (October 1 - 2012): Initial release of the Google Tag Manager container code by Google
+
