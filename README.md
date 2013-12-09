@@ -28,7 +28,7 @@ keep sites running smoothly and quickly. Tags are managed with an easy-to-use we
 ## Implementation
 he Google Tag Manager container snippet is a small piece of JavaScript and non-JavaScript code that you paste into your pages. It enables Tag Manager to fire tags by inserting gtm.js into the page (or through the use of an iframe when JavaScript isn't available).
 
-To implement Google Tag Manager, copy the code snippet provided within [GTM_standardScript.js](https://github.com/orangevalley/GTM_standard/blob/master/GTM_standardScript.js), **replacing both instances of GTM-XXXX** with your container ID (supplied separately by OrangeValley). Paste this snippet into your website template page so that it appears immediately after the opening < body > tag.
+To implement Google Tag Manager, copy the code snippet provided within [GTM_standardScript.js](https://github.com/orangevalley/GTM_standard/blob/master/GTM_standardScript.js), **replacing both instances of GTM-XXXXXX** with your container ID (supplied separately by OrangeValley). Paste this snippet into your website template page so that it appears immediately after the opening < body > tag.
 
 ```javascript
 <!-- Google Tag Manager -->
