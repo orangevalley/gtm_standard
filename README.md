@@ -55,7 +55,7 @@ window,document,'script','dataLayer','GTM-XXXX')
 
 _**Note:** The Google Tag Manager snippet must be placed directly in the page that you intend on tracking. Placing it in a hidden iframe or deploying it within another tag management system will prevent certain tags from accurately tracking the parent page._
 
-## Verify you implementation
+## Verify your implementation
 You can verify the (basic) implementation by using a specific Google Chrome plugin. This plugin, called Tag Assistant, will report if the implementation of the Google Tag Manager code is correct or any warnings/errors could interfere with the correct function of the Google Tag Manager.
 
 [Tag Assistant - Google Chrome](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en)
