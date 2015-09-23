@@ -53,7 +53,7 @@ And the second instance which has to be replaced by the proper container ID at t
 window,document,'script','dataLayer','GTM-XXXX')
 ```
 
-_**Note:** The Google Tag Manager snippet must be placed directly in the page that you intend on tracking. Placing it in a hidden iframe or deploying it within another tag management system will prevent certain tags from accurately tracking the parent page._
+_**Note:** The Google Tag Manager snippet must be placed directly in the page that you intend on tracking. Placing it in a hidden iframe or deploying it within another tag management system will prevent certain tags from accurately tracking the parent page. Placing the Google Tag Manager snippet in a <div> may result in the same issues._
 
 ## Verify your implementation
 You can verify the (basic) implementation by using a specific Google Chrome plugin. This plugin, called Tag Assistant, will report if the implementation of the Google Tag Manager code is correct or any warnings/errors could interfere with the correct function of the Google Tag Manager.
@@ -72,4 +72,5 @@ If you run in to any problems; for instance the Tag Assistant is reporting issue
 
 # Version History
 - 1 (October 1 - 2012): Initial release of the Google Tag Manager container code by Google
+- 1.01 (September 23 - 2015): Update on implementation
 
