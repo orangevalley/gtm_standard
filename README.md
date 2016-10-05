@@ -58,7 +58,7 @@ Additionally, copy the code snippet provided within [GTM_standardScriptBody](htt
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 ```
-
+Alson in this code you will find an instance which has to be replaced by the proper container ID:
 ```javascript
 src="//www.googletagmanager.com/ns.html?id=GTM-XXXXXX"
 ```
