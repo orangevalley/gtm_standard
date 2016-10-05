@@ -6,6 +6,7 @@ Implementation guide for proper Google Tag Manager container code. In advance of
 Google Tag Manager is a free tool that eliminates tedious code-editing tasks for your website. The easy-to-use web interface lets your marketing colleagues add and update their own website tags—including javascript code snippets for conversion tracking, site analytics, remarketing and more. They can do it all without bothering you, leaving you time to focus on other (more) important work.
 The basic Google Tag Manager container looks like:
 
+Code for the head of the page
 ```javascript
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -16,6 +17,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 ```
 
+Code for the body of the page
 ```javascript
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT69BM"
